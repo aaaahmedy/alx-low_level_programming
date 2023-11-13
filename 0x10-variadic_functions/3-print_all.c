@@ -29,7 +29,7 @@ void print_all(const char * const format, ...)
 		switch (str[i])
 		{
 			case 'c':
-				charac = va_arg(ptr, int);
+				charac = va_arg(ptr, char);
 				printf("%c", charac);
 				break;
 			case 'i':
