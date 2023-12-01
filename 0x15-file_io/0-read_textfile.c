@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
- *read_textfile : reads a text file and prints it to the STDOUT.
- *@filename:The file containing the text
- *@letters:Number of text characters
- *RETURN : 0 (SUCCESS)
- *
+/**
+ * read_textfile - reads a text file and prints it to the STDOUT.
+ * @filename:The file containing the text
+ * @letters:Number of text characters
+ * Return: 0 (SUCCESS)
 */
 
 ssize_t read_textfile(const char *filename, size_t letters)
