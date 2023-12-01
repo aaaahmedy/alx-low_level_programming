@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
- *read_textfile : reads a text file and prints
+ *read_textfile : reads a text file and prints it to the STDOUT.
  *@filename:The file containing the text
  *@letters:Number of text characters
  *RETURN : 0 (SUCCESS)
@@ -12,7 +12,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *buffer;
-	int rd, wr;
+	ssize_t rd, wr;
 	int fd;
 
 
